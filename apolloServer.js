@@ -1,7 +1,7 @@
 // file to setup apollo server 
 const express = require('express');
 const { ApolloServer, PubSub } = require('apollo-server-express');
-// const schema = require('./api/graphql/schema').Schema;
+const schema = require('./api/gql/schema').Schema;
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
